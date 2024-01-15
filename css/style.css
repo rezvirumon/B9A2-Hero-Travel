@@ -18,11 +18,14 @@ body {
     --title-f-size: 40px;
 }
 
+/* Na-Styles-Start */
 
-header{
-    padding: 52px 135px;
-    width: 100%;
+header {
+    padding: 52px 0;
+    max-width: 1170px;
+    margin: 0 auto;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -52,7 +55,7 @@ nav {
     color: var(--primary-color);
 }
 
-.nav-list a{
+.nav-list a {
     text-decoration: none;
     font-size: 18px;
     font-weight: 400;
@@ -60,7 +63,7 @@ nav {
     color: var(--secondary-color);
 }
 
-.nav-list a:hover{
+.nav-list a:hover {
     color: var(--primary-color);
 }
 
@@ -72,3 +75,88 @@ nav {
     font-weight: 800;
 }
 
+/* Nav-Styles-End */
+
+
+
+.banner {
+    max-width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+        url('../Images/banner-img.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    border-radius: 16px;
+}
+
+.banner h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.banner p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+
+
+.search-container {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    margin: 48px auto;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.search-container input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: var(--background);
+    color: var(--secondary-color);
+    border: none;
+    outline: none;
+    padding: 16px;
+    font-weight: 400;
+}
+
+.search-container select {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: var(--background);
+    color: rgba(19, 19, 24, 0.50);
+    border: none;
+    outline: none;
+    padding: 16px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.search-container button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+
+.search-container i {
+    padding-right: 10px;
+}

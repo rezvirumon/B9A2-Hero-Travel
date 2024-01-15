@@ -2,7 +2,7 @@
 @media only screen and (max-width: 600px) {
     header{
         width: 100%;
-        padding: 50px;
+        padding: 20px 50px;
         justify-content: space-between;
     }
 
@@ -23,7 +23,7 @@
     
     .text-logo {
         font-size: 15px;
-        font-weight: 800;
+        font-weight: 700;
         justify-content: space-between;
         align-items: center;
     }

@@ -35,7 +35,7 @@
         color: black;
     }
 
-
+    /* Nav-Responsive */
     .banner {
         min-width: 335px;
         height: 550px;
@@ -61,7 +61,7 @@
 
     .search-container {
         display: flex;
-        width:287px;
+        width: 287px;
         margin: 32px auto;
         padding: 16px;
         flex-direction: column;
@@ -87,4 +87,27 @@
 
 }
 
-/* Nav-Responsive */
+/* 
+@media screen and (max-width: 600px) {
+    .tours-container {
+        flex-direction: column;
+    }
+
+    .tours-container h1 {
+        color: #131318;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .tours-container button {
+        width: 174px;
+        height: 52px;
+        border-radius: 8px;
+        background: #FF5400;
+    }
+
+    .image img{
+        width: 80%;
+    }
+} */

@@ -89,10 +89,11 @@
     .tours-section {
         max-width: 375px;
         overflow-x: hidden;
+        margin: 0 auto;
     }
 
     .tours-container {
-        margin: 24px 20px 16px;
+        margin: 24px 30px 16px;
         display: block;
     }
 
@@ -100,6 +101,9 @@
         width: 335px;
         height: 342px;
         border-radius: 16px;
+        display: block;
+        margin: 0 auto;
+
     }
 
     .tours-text-container h2 {
@@ -124,7 +128,7 @@
     }
 
 
-    .tours-text-container button{
-        margin: 24px ;
+    .tours-text-container button {
+        margin: 24px 0;
     }
 }

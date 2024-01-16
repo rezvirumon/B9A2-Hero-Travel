@@ -300,4 +300,77 @@
     }
 
 
+
+    .news-latter-container {
+        display: block;
+        flex-direction: column;
+        top: 560px;
+        position: absolute;
+        margin: 0 auto;
+
+    }
+
+    .form-area {
+        width: 335px;
+        height: 353px;
+        border-radius: 16px;
+        border: 1px solid #FF5400;
+        margin: 0 8px;
+    }
+
+    .form-area h3 {
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 2px;
+    }
+
+    .form-area p {
+        width: 230px;
+        color: #5A5A5D;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+
+    .form-area input {
+        width: 230px;
+        height: 30px;
+    
+    }
+
+    .form-area button {
+        width: 230px;
+        height: 30px;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+        display: block;
+    }
+
+    .news-latter-container img {
+        width: 335px;
+        height: 300px;
+        margin-top: 16px;
+        margin-left: 8px;
+    }
+
+    .discount {
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        border-radius: 10.569px;
+        background: #FF5400;
+        position: absolute;
+        left: 112px;
+        bottom: 50px;
+    }
+
+    
+ 
+
+
 }

@@ -256,7 +256,7 @@
         margin: 0 auto;
         width: 335px;
         height: 289px;
-        
+
     }
 
     .service-title-text h3 {
@@ -339,7 +339,7 @@
     .form-area input {
         width: 230px;
         height: 30px;
-    
+
     }
 
     .form-area button {
@@ -371,13 +371,80 @@
         bottom: 50px;
     }
 
-    .footer-area{
+    .footer-area {
         position: relative;
         top: 1400px;
         margin: 0;
     }
+
     
- 
+
+    .footer-area {
+        width: 375px;
+        height: 309px;
+    }
+
+    .footer-container {
+        width: 375px;
+        height: 309px;
+        margin: 0 auto;
+    }
+
+    .footer-area .logo {
+        width: 60px;
+        margin: 0 auto;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .footer-area p {
+        width: 287px;
+        color: #5A5A5D;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
+    }
+
+    .footer-area {
+        margin-top: 20px;
+        width: 100%;
+        height: 502px;
+        background: rgba(19, 19, 24, 0.05);
+        padding-top: 110px;
+    }
+
+    .footer-sub-tittle {
+        padding: 15px 0;
+        margin: 0 auto;
+        width: 769px;
+        color: #5A5A5D;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+
+    }
+
+    .footer-icon i {
+        font-size: 18px;
+        padding: 10px;
+
+    }
+
+    .footer-icon {
+        width: 60%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+        border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+        ;
+    }
+
+    .copy-right {
+        margin-top: 20px;
+    }
+
 
 
 }

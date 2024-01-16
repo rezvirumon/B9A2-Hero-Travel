@@ -85,7 +85,7 @@
         height: 52px;
     }
 
-
+    /* tours-section */
     .tours-section {
         max-width: 375px;
         overflow-x: hidden;
@@ -93,15 +93,15 @@
     }
 
     .tours-container {
-        margin: 24px 30px 16px;
-        display: block;
+        margin-top: 24px;
+        margin-left: 20px;
+        flex-direction: column;
     }
 
     .tours-container img {
         width: 335px;
         height: 342px;
         border-radius: 16px;
-        display: block;
         margin: 0 auto;
 
     }
@@ -116,7 +116,6 @@
         font-weight: 400;
         line-height: 26px;
         color: rgba(19, 19, 24, 0.70);
-        margin: 16px auto;
     }
 
     .tours-text-container li {
@@ -129,6 +128,9 @@
 
 
     .tours-text-container button {
-        margin: 24px 0;
+       margin: 24px 0;
     }
+
+    
+
 }

@@ -1,5 +1,11 @@
 /* Nav-Responsive */
 @media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     header {
         width: 100%;
         padding: 20px 30px;
@@ -39,8 +45,8 @@
     .banner {
         min-width: 335px;
         height: 550px;
-        margin: 18px 20px;
-        padding: 35px;
+        margin: 10px 15px;
+        padding: 20px;
 
     }
 
@@ -60,12 +66,7 @@
     }
 
     .search-container {
-        display: flex;
-        width: 287px;
-        margin: 32px auto;
-        padding: 16px;
         flex-direction: column;
-        align-items: flex-start;
         gap: 16px;
         border-radius: 8px;
     }
@@ -73,6 +74,7 @@
     .search-container input {
         min-width: 255px;
         height: 52px;
+
     }
 
     .search-container select {
@@ -87,14 +89,12 @@
 
     /* tours-section */
     .tours-section {
-        max-width: 375px;
-        overflow-x: hidden;
+        max-width: 335px;
         margin: 0 auto;
     }
 
     .tours-container {
         margin-top: 24px;
-        margin-left: 20px;
         flex-direction: column;
     }
 
@@ -103,7 +103,6 @@
         height: 342px;
         border-radius: 16px;
         margin: 0 auto;
-
     }
 
     .tours-text-container h2 {
@@ -134,44 +133,106 @@
     /* Grid */
 
     .destination-container {
-        width: 375px;
+        width: 100%;
     }
 
-    .gallery {
-        display: block;
-        width: 335px;
-        height: 176px;
-        margin: 0 auto;
+    .destination-text h3 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .destination-text p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 309px;
     }
 
     .gallery img {
         width: 335px;
         height: 176px;
-        margin-bottom: 16px;
+        padding: 0 24px;
+        margin-bottom: 24px;
     }
 
-    .destination-container h1 {
-        font-size: 20px;
-        text-align: center;
-        font-weight: 800;
-        margin-top: 24px;
-        margin-bottom: 16px;
+    .Gallery_item-1 {
+        grid-column: 1/span 24;
+        grid-row: 1;
+        position: relative;
+
     }
 
-    .destination-title-description {
-        text-align: center;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 24px;
-        margin-bottom: 16px;
+    .Gallery_item-2 {
+        grid-column: 1/span 24;
+        grid-row: 2;
+        position: relative;
+        display: inline-block;
     }
 
-    .image-title {
-        font-size: 20px;
-        font-weight: 700;
+    .Gallery_item-3 {
+        grid-column: 1/span 24;
+        grid-row: 3;
+        position: relative;
+        display: inline-block;
     }
 
+    .Gallery_item-4 {
+        grid-column: 1/span 24;
+        grid-row: 4;
+        position: relative;
+        display: inline-block;
+    }
 
+    .Gallery_item-5 {
+        grid-column: 1/span 24;
+        grid-row: 5;
+        position: relative;
+        display: inline-block;
+    }
+
+    .Gallery_item-6 {
+        grid-column: 1/span 24;
+        grid-row: 6;
+        position: relative;
+        display: inline-block;
+    }
+
+    .Gallery_item-7 {
+        grid-column: 1/span 24;
+        grid-row: 7;
+        position: relative;
+        display: inline-block;
+    }
+
+    .price-tag {
+        position: unset;
+    }
+
+    .service-parts-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin: auto;
+
+
+
+    }
+
+    .p1 {
+        grid-template-columns: 1 /span 3;
+        grid-row: 1;
+        width: 100%;
+    }
+
+    .p2 {
+        grid-template-columns: 1 /span 3;
+        grid-row: 2;
+        width: 100%;
+    }
+
+    .p3 {
+        grid-template-columns: 1 /span 3;
+        grid-row: 3;
+        width: 100%;
+    }
 
 }
-

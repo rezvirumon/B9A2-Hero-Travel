@@ -128,9 +128,49 @@
 
 
     .tours-text-container button {
-       margin: 24px 0;
+        margin: 24px 0;
     }
 
-    
+    /* Grid */
+
+    .destination-container {
+        width: 375px;
+    }
+
+    .gallery {
+        display: block;
+        width: 335px;
+        height: 176px;
+        margin: 0 auto;
+    }
+
+    .gallery img {
+        width: 335px;
+        height: 176px;
+        margin-bottom: 16px;
+    }
+
+    .destination-container h1 {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 800;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+
+    .destination-title-description {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+
+    .image-title {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+
 
 }

@@ -4,6 +4,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        
     }
 
     header {
@@ -481,7 +482,43 @@
     }
 
 
+    .run-way-container{
+        overflow: hidden;
+    }
 
+    .runway{
+        display: flex;
+        align-items: center;
+    }
+    .runway h1{
+        font-size: 20px;
+    }
+    .runway img{
+        width: 50px;
+        
+    }
+    
+    .vacation-color{
+        color: #FF5400;
+        padding-right: 15px;
+    }
+    
+    .slide-right {
+        margin: 40px 0;
+        height: 50px;
+        position: relative;
+        animation: slideRight 4s ease-in-out infinite;
+      }
+    
+      @keyframes slideRight {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(400px);
+          
+        }
+      }
 }
 
 

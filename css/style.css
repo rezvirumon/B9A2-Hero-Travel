@@ -777,3 +777,39 @@ nav {
 .copy-right{
     margin-top: 50px;
 }
+
+
+/* Extra-Animation */
+
+.run-way-container{
+    overflow: hidden;
+}
+
+.runway{
+    display: flex;
+    align-items: center;
+}
+.runway img{
+    width: 90px;
+}
+
+.vacation-color{
+    color: #FF5400;
+    padding-right: 15px;
+}
+
+.slide-right {
+    height: 100px;
+    position: relative;
+    animation: slideRight 5s ease-in-out infinite;
+    margin: 30px 0;
+  }
+
+  @keyframes slideRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(2000px);
+    }
+  }

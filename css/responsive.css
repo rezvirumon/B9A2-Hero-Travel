@@ -211,15 +211,16 @@
         display: inline-block;
     }
 
-    .price-tag {
+    /* .price-tag {
         position: unset;
-    }
+    } */
 
     .service-parts-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, 1fr);
         margin: auto;
+        width: 375px;
 
 
 
@@ -243,16 +244,14 @@
 
     }
 
-    .container service-section {
+    .container-service-section {
         width: 375px;
-        overflow: hidden;
-
     }
 
     .service-parts-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
         margin: 0 auto;
         width: 335px;
         height: 289px;
@@ -273,6 +272,7 @@
         font-weight: 400;
         line-height: 24px;
         margin-bottom: 16px;
+        width: 309px;
     }
 
     .service-part {
@@ -302,12 +302,36 @@
     }
 
 
+    .vacation-container{
+        position: relative;
+        bottom: -600px;
+        width: 335px;
+    }
+
+
+    .vacation-container h2{
+        text-align: center;
+        font-size: 18px;
+        color: rgb(255, 140, 0);
+        padding: 5px;
+        width: 200px;
+        margin: auto;
+    }
+    .vacation-container h3{
+        text-align: center;
+    }
+    .vacation-container p{
+        text-align: center;
+    }
+    
+
+    /* news-latter */
+
 
     .news-latter-container {
-        display: block;
         flex-direction: column;
-        top: 560px;
-        position: absolute;
+        top: 540px;
+        position: relative;
         margin: 0 auto;
         overflow: hidden;
     }
@@ -317,28 +341,31 @@
         height: 353px;
         border-radius: 16px;
         border: 1px solid #FF5400;
-        margin: 0 8px;
+        margin: 0 auto;
     }
 
     .form-area h3 {
         color: #131318;
         font-size: 20px;
         font-weight: 800;
-        margin-bottom: 2px;
+        margin: 5px 10px;
+
     }
 
     .form-area p {
         width: 230px;
         color: #5A5A5D;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 400;
         line-height: 24px;
-        margin-bottom: 16px;
+        margin: 16px auto;
+
     }
 
     .form-area input {
         width: 230px;
         height: 30px;
+        margin: 16px auto;
 
     }
 
@@ -351,6 +378,8 @@
         align-items: center;
         justify-content: center;
         display: block;
+        margin: 16px auto;
+
     }
 
     .news-latter-container img {
@@ -361,26 +390,31 @@
     }
 
     .discount {
-        width: 214.023px;
-        height: 79.268px;
+        width: 180px;
+        height: 80px;
         transform: rotate(-19.628deg);
         border-radius: 10.569px;
         background: #FF5400;
         position: absolute;
-        left: 112px;
+        left: 180px;
         bottom: 50px;
     }
 
+    .discount h2{
+        font-size: 14px;
+    }
+
+
     .footer-area {
         position: relative;
-        top: 1400px;
+        top: 550px;
         margin: 0;
+        min-width: 375px;
     }
 
     
 
     .footer-area {
-        width: 375px;
         height: 309px;
     }
 
@@ -404,7 +438,7 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 24px;
-        /* 171.429% */
+        
     }
 
     .footer-area {
@@ -430,6 +464,7 @@
     .footer-icon i {
         font-size: 18px;
         padding: 10px;
+        border: none;
 
     }
 
@@ -448,3 +483,5 @@
 
 
 }
+
+

@@ -187,6 +187,11 @@ nav {
     height: 550px;
     border-radius: 16px;
     background: lightgray 50% / cover no-repeat;
+    transition: all 0.3s ease;
+}
+
+.tours-container img:hover{
+    box-shadow: 2px 2px 20px rgb(97, 95, 95) ;
 }
 
 .tours-text-container p {
@@ -392,6 +397,7 @@ nav {
     height: 280px;
 }
 
+
 .Gallery_item-1 {
     grid-column: 1/span 6;
     grid-row: 1;
@@ -461,13 +467,13 @@ nav {
     margin-top: 100px;
 }
 
-.service-section {
+.container-service-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    max-width: 1170px;
+    max-width: 1440px;
 }
 
 .service-parts-container {
@@ -475,6 +481,17 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
     margin-top: 48px;
+}
+
+
+
+.p1:hover,
+.p2:hover,
+.p3:hover{
+    box-shadow: 2px 2px 20px rgb(97, 95, 95) ;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
 }
 
 .service-title {
@@ -531,12 +548,58 @@ nav {
     background: rgba(41, 206, 246, 0.05);
 }
 
-.price-tag {
-    position: relative;
-    left: 310px;
-    border: 1px solid rgba(233, 68, 68, 0.20);
-    background: rgba(233, 68, 68, 0.05);
-}
+/* Servive-Section-End */
+
+
+/* vacation-plan */
+.vacation-container {
+    max-width: 1170px;
+    margin: 50px auto;
+    background-color: #1c8aa622;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+
+  .vacation-container:hover{
+    box-shadow: 2px 2px 20px rgb(9, 130, 142) ;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .item {
+    margin-bottom: 20px;
+  }
+  
+  .item h3 {
+    color: #e62305;
+  }
+  .item h2 {
+    color: #333;
+  }
+  
+  .price {
+    color: #009688;
+    font-weight: bold;
+  }
+  
+  .total {
+    border-top: 2px solid #009688;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  
+  .total h3 {
+    color: #009688;
+  }
+  
+  .total-price {
+    color: #009688;
+    font-weight: bold;
+  }
+  
+
 
 
 /* newslatter-section */
@@ -546,6 +609,12 @@ nav {
     margin-top: 100px;
     position: relative;
 
+}
+
+.form-area:hover{
+        box-shadow: 5px 5px 20px #FF5400 ;
+        border-radius: 16px;
+        transition: all 0.3s ease;
 }
 
 .news-latter-container {
@@ -584,6 +653,12 @@ nav {
     height: 422px;
     flex-shrink: 0;
     border-radius: 16px;
+}
+
+.news-latter-container img:hover{
+    box-shadow: 5px 5px 20px #0088ff ;
+    border-radius: 16px;
+    transition: all 0.3s ease;
 }
 
 .form-area input {
@@ -639,6 +714,7 @@ nav {
 }
 
 
+
 /* footer */
 .footer-area {
     margin-top: 100px;
@@ -665,7 +741,30 @@ nav {
 .footer-icon i{
     font-size: 25px;
     padding: 10px ;
-    
+    border: 1px solid grey;
+    border-radius: 50%;
+    width: 50px;
+}
+
+.footer-icon .fa-facebook-f:hover{
+    color: blue;
+    box-shadow: 2px 2px 10px blue;
+    transition: all 0.3s ease;
+}
+.footer-icon .fa-instagram:hover{
+    color: #c40594;
+    box-shadow: 2px 2px 10px #f09433;
+    transition: all 0.3s ease;
+}
+.footer-icon .fa-github:hover{
+    color: #c40594;
+    box-shadow: 2px 2px 10px #2f2b27;
+    transition: all 0.3s ease;
+}
+.footer-icon .fa-twitter:hover{
+    color: #0588c4;
+    box-shadow: 2px 2px 10px #0695c0;
+    transition: all 0.3s ease;
 }
 
 .footer-icon{
